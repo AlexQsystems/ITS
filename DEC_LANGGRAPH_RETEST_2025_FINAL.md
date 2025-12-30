@@ -1,9 +1,5 @@
 # LangGraph Architecture Re-Test - December 29, 2025
 
-**Дата тестирования**: 29 декабря 2025
-**Дата семантической проверки**: 29 декабря 2025
-**Статус**: Скорректированный отчет с учетом детальной семантической верификации
-
 ---
 ## Executive Summary
 
@@ -89,7 +85,7 @@
 
 **Example - TC1.4 (Cemetery Plot)**:
 - **Question**: "Is a cemetery plot considered a real property as it pertains to trust requirements?"
-- **Source**: "APPELLATE COURT ➢ ESTATE OF HEGGSTAD (1993)" - about **real property вообще**, dosen't mention cemetery
+- **Source**: "APPELLATE COURT ➢ ESTATE OF HEGGSTAD (1993)" - about **real property generally**, dosen't mention cemetery
 - **Answer**: "A cemetery plot is typically viewed as real property, which means it can be included as part of a trust's assets..."
 - **Problem**: Agent extrapolates from GENERAL ("real property") to SPECIFIC ("cemetery plot")
 
